@@ -7,7 +7,7 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "desktop": "tauri dev",
+    "desktop": "npm run web & tauri dev",
     "build:web": "expo export:web",
     "build:desktop": "npm run build:web && tauri build"
   },
